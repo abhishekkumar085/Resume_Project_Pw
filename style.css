@@ -1,0 +1,105 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#f3f2f4;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    
+    
+    /*  */
+    width:100%;
+    height:30%;
+    /* left:-3%; */
+    position:absolute;
+    /* background-image: linear-gradient(#2f1a6c, #431ab4); */
+    background-color:  #183141;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius: 60% 25%;
+    border-bottom-right-radius: 75% 30%;
+  }
+  .container{
+    width:80%;
+    height:100vh;
+    background-color:white;
+    border-radius:10px;
+    position:absolute;
+    top:50%;
+    /* overflow:hidden; */
+    left:50%;
+    transform:translate(-50%,-50%);
+  }
+  
+  .header .main_header_Content img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+  }
+  .main_header_Content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 17px;
+   
+  }
+  .main_header_Content .headline {
+    width: 50%;
+    color: rgba(255, 255, 255, 0.699);
+    display: flex;
+    flex-direction: column;
+  }
+  .main_header_Content  .social_media{
+    /* margin-right: 118px; */
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .main_header_Content  .social_media li{
+    list-style-type: none;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+   
+  }
+  .main_header_Content  .social_media li img{
+    height: 20px;
+    width: 20px;
+  
+  }
+  .main_header_Content .social_media li a{
+    padding-left: 5px;
+    color: wheat;
+    text-decoration: none;
+  }
+  .main_header_Content .headline span{
+    color: wheat;
+  }
+  .main_header_Content .headline h1{
+    color: rgb(253, 252, 248);
+  }
+  /* header_Completed */
+  /* next Part Begin */
+
+.main_content{
+  position:absolute;
+  display: flex;
+  top: 180px;
+  justify-content: space-evenly;
+}
+.main_content .right_content{
+  background-color: red;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.main_content .left_content{
+  background-color: black;
+  width: 100%;
+}
+ 
