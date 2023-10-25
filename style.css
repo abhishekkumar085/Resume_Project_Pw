@@ -89,17 +89,47 @@ body{
 .main_content{
   position:absolute;
   display: flex;
-  top: 180px;
+  top: 210px;
   justify-content: space-evenly;
 }
 .main_content .right_content{
-  background-color: red;
+  /* background-color: red; */
   width: 100%;
   border-radius: 5px;
+  display: flex;
+  /* align-items: start; */
+  /* justify-content: center; */
+  flex-direction: column;
+
+  margin-left: 10px;
+}
+.main_content .right_content h1{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+
+
+
+}
+.main_content .right_content img{
+  width: 25px;
+}
+.main_content .right_content h2{
+ font-size: 20px;
 }
 
+.main_content .right_content .work_content .h2_degig{
+  color: rgb(35, 126, 126);
+}
+.main_content .right_content .work_content .bullet{
+ width: 5px;
+  color: rgb(35, 126, 126);
+}
+.main_content .right_content .work_content .wk_date{
+  color: rgb(35, 126, 126);
+}
+/* experience part completed */
 .main_content .left_content{
-  background-color: black;
-  width: 100%;
+  background-color: black; 
+  width: 100%; 
 }
  
